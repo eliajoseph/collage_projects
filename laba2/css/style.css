@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    flex: 20%;
+}
+
+.col img{
+    width: 100%;
+    flex-grow: 1;
+    padding: 4px;
+    object-fit: cover;
+    pointer-events: none;
+    user-select: none;
+}
+
+  
