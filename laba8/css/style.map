@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		"$zer: 0;\r\n$px32: 32px;\r\n$px16: 16px;\r\n$primary: #161616;\r\n$secondary: #323232;\r\n\r\nbody{\r\n    margin: $zer;\r\n}\r\n\r\nheader{\r\n    height: $px32;\r\n    background-color: $primary;\r\n}\r\n\r\nnav{\r\n    height: $px16;\r\n    background-color: $secondary;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAMA,AAAA,IAAI,CAAA;EACA,MAAM,EAPJ,CAAC;CAQN;;;AAED,AAAA,MAAM,CAAA;EACF,MAAM,EAVH,IAAI;EAWP,gBAAgB,EATV,OAAO;CAUhB;;;AAED,AAAA,GAAG,CAAA;EACC,MAAM,EAdH,IAAI;EAeP,gBAAgB,EAbR,OAAO;CAclB"
+}

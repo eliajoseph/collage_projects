@@ -1,0 +1,16 @@
+/* line 7, C:/Users/5252e/Desktop/test/sass/style.scss */
+body {
+  margin: 0;
+}
+
+/* line 11, C:/Users/5252e/Desktop/test/sass/style.scss */
+header {
+  height: 65px;
+  background-color: #161616;
+}
+
+/* line 16, C:/Users/5252e/Desktop/test/sass/style.scss */
+nav {
+  height: 45px;
+  background-color: #323232;
+}
