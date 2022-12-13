@@ -1,0 +1,87 @@
+::-webkit-scrollbar{
+    overflow: hidden;
+}
+
+body{
+    margin:0;
+    background: rgb(36, 36, 36);
+
+}
+
+
+aside{
+    float: right;
+    width: 20vw;
+    height: 100vh;
+    padding: 0px 24px;
+    overflow: auto;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+
+}
+
+h4{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    user-select: none;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    
+    
+}
+
+
+.article-block{
+    text-align: center;
+    margin: 16px;
+    filter: grayscale();
+
+}
+
+img {
+    width:100%;
+    object-fit:cover;
+    /* pointer-events: none; */
+
+} 
+
+.article-block img{
+    width: 300px;
+    height: 200px;
+    border: 2px solid rgb(253, 253, 253);
+    transition: .3s;
+    
+
+}
+
+.article-block img:hover{
+    transition: .3s;
+    opacity: 0.5;
+    cursor: pointer;
+    transform: scale(1.1) rotate(-3deg);
+    transition: .5s;
+
+}
+

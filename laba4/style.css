@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+main{
+    display: flex;
+    align-items: center;
+}
+
+/* ФОН */
+
+.video-bg{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.video-bg video{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 1;
+    filter: brightness(90%); 
+}
+/* ТЕКСТ */
+.content{
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text{
+    color: white;
+    font-size: 128px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+/* КНОПКА */
+button{
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid #000;
+    transition: ease-out 0.7s;
+    height: 64px;
+    width: 128px;
+    user-select: none;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+
+}
+
+button:hover{
+    box-shadow: inset 300px 0 0 0 #000;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color: #fff;
+}
+/* ЗАГОЛОВКИ */
+h1{
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+}
+
+h4{
+    margin:0;
+    user-select: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* ПАНЕЛЬ ФОРМЫ */
+.formbox{
+    margin: 0px 100px;
+    color: #3a3a3a;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.inputBox{
+    position: relative;
+    width: 250px;
+
+}
+
+.inputBox input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 4px;
+    outline: none;
+    color: #000;
+    font-size: 1em;
+    transition: 0.5s;
+
+}
+
+.inputBox span{
+    position: absolute;
+    left: 0;
+    padding-top: 27px;
+    padding-left: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: #ccc;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+/* АНИМАЦИЯ */
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span
+{
+    color: #e98b1f;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    background: #fff;
+    padding: 10px;
+    border-left: 1px solid #e9b31f;
+    border-right: 1px solid #e9b31f;
+    letter-spacing: 0.1em;
+}
+
+.inputBox input:valid,
+.inputBox input:focus{
+    border: 1px solid #e98b1f;
+}
+
+input{
+    margin: 16px 0px;
+    width: 200px;
+}
+
+label{
+    display: flex;
+}
+
+a{
+    width: fit-content;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+a:link{
+    color: #3a3a3a ;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #3a3a3a;
+}
+
+a:hover{
+    color: #e9b31f;
+}
+
+a:active{
+    color: #e98b1f;
+}
