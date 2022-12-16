@@ -1,0 +1,373 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+    margin: 15px 100px;
+    background: #fff;
+  }
+
+.container{
+    max-width: 1200px;
+    min-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 1 1 auto;
+}
+  
+header{
+    display: flex;
+    align-items: center;
+    padding-top: 34px;
+
+}
+
+.header-mobile{
+    display: none;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #232E35;
+    text-decoration: none;
+}
+
+.navigation{
+    display: flex;
+    margin: 0 auto;
+}
+
+.navigation p{
+    margin: 0 45px;
+}
+
+.navigation p:hover{
+    font-weight: 500;
+    transform: scale(1.1);
+    transition: transform .2s;
+    color: #232E35;
+}
+
+.section-hero{
+    margin: 10% 0 0 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-text{
+    max-width: 538px;
+}
+
+.hero-header{
+    position: relative;
+    padding-left: 32px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 7.5px;
+    color: #656D72;
+}
+
+.hero-header::before{
+    margin-top: 12px;
+    margin-left: -28px;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 16px;
+    height: 2px;
+    background-color: #D9D9D9;
+
+}
+
+.hero-title{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    color: #232E35;
+}
+
+.hero-title span{
+    color: #7E74F1;
+}
+
+.hero-description{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    width: 365px;
+    height: 496px;
+}
+
+.social-media{
+    margin: 40px 0 0 0;
+}
+
+.social-media a{
+    color: #232E35;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 6px;
+}
+
+.social-media a:first-child{
+    margin-left: 0;
+}
+
+.my-clients-section{
+    margin: 15% 0 5% 0;
+}
+
+.my-clients-section p{
+    font-family: 'Inter', sans-serif;
+}
+
+.my-clients-section .client-description{
+    margin-bottom: 40px;
+}
+
+.my-clients-section p:last-of-type{
+    color: #656D72;
+    margin-left: 10px;
+}
+
+.clients-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-prof{
+    width: 360px;
+}
+
+.client-img{
+    border-radius: 50%;
+}
+
+/* ------ SERVICES TEMPLATE ------ */
+
+.section-services{
+    margin-top: 15%;
+    width: 100%;
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+}
+
+.position-services-header{
+    display: flex;
+    justify-content: center;
+}
+
+.education-section{
+    justify-content: start;
+}
+
+.services-header{
+    position: relative;
+    width: auto;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 7.5px;
+    color: #656D72;
+    margin: 0 0 0 30px;
+}
+
+.underscore{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 16px;
+    height: 2px;
+    left: -30px;
+    top: 12px;
+    background-color: #D9D9D9; 
+}
+
+.services-title{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #232E35;
+}
+
+/* ----- DEGREE SECTION ----- */
+
+.degree-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.knowledges-section__progress-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.knowledges-section p{
+    font-family: 'Inter', sans-serif;
+}
+
+.degree-description-section .degree-unit__place-name{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #232E35
+}
+
+.degree-unit__description{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #656D72;
+}
+
+.degree-unit__degree-years{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #232E35;
+}
+
+.progress-section__unit span:first-of-type{
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.progress-section__unit span:last-of-type{
+    color: #7E74F1;
+    font-weight: 500;
+}
+
+.knowledges-section__description{
+    color: #656D72;
+}
+
+/* ----- FOOTER ----- */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8% 0;
+}
+
+footer p{
+    margin: 24px 0 0 0;
+    font-family: 'Inter', sans-serif;
+    color: #656D72;
+    font-size: 14px;
+}
+
+footer .social-media{
+    margin: 0;
+}
+
+
+/* ------ MOBILE ------*/
+
+@media (max-width: 800px){
+    body{
+        margin: 0;
+    }
+
+    .container{
+        width: 340px;
+    }
+    
+    .navigation a{
+        display: none;
+    }
+
+    ul{
+        width: 400px;
+    }
+
+    .header-mobile{
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        margin: 10% auto 0 auto;
+        
+    }
+
+    .header-mobile a{
+        margin: 0 15px 0 15px;
+    }
+
+    .section-hero{
+        flex-direction: column;
+    }
+    .img-side{
+        margin-top: 10%;
+    }
+    .clients-wrapper{
+        flex-direction: column;
+    }
+    .client-prof{
+        width: 340px;
+        margin: 20px auto;
+    }
+    .my-clients-section .client-description{
+        margin-bottom: 40px;
+    }
+    .client-img{
+        display: block;
+        margin: 0 auto;
+    }
+    .degree-section{
+        flex-direction: column;
+    }
+
+    /* ----- Service page MOBILE ----- */
+    .content-services-wrapper{
+        flex-direction: column;
+    }
+    .position-services-header{
+        justify-content: start;
+    }
+    .content-services{
+        width: 280px !important;
+        margin: 0 auto;
+    }
+
+    /*Portfolios MOBILE*/
+    .portfolious-section{
+        flex-direction: column;
+    }
+    .portfolious-section__portfolious-unit{
+        width: 100% !important;
+    }
+}

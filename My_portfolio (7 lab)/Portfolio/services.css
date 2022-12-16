@@ -1,0 +1,43 @@
+.article-title{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.16px;
+    align-items: center;
+    color: #232E35;
+}
+
+.section-services p{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    display: flex;
+}
+.content-services{
+    width: 361px;
+    height: 294px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.services-icon{
+    margin-top: 40px;
+    display: inline-flex;
+    color: #7E74F1;
+    align-items: center;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.content-services-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+
+
